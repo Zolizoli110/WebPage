@@ -1,3 +1,4 @@
+using WebApplication3.Models;
 using WebApplication4.Models;
 
 namespace WebApplication4.DataBase;
@@ -8,7 +9,6 @@ public class Context : DbContext
 {
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<Reservation> Reservations { get; set; }
-
     public Context(DbContextOptions<Context> options) : base(options)
     {
     }

@@ -17,5 +17,5 @@ public partial class Reservation
     public string AuthorId { get; set; }
     public virtual User User { get; set; }
     [Required]
-    public string Text { get; set; }
+    public string Description { get; set; }
 }
