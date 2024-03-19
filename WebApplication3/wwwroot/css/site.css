@@ -19,34 +19,63 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #FFD6FD;
+    background-color: #ffeadb;
 }
 
 nav {
-    background-color: #ECACC1;
+    background-color: #f7c5a8;
 }
 
 .div {
-    background-color: #ECACC1;
+    background-color: #f7c5a8;
     border-radius: 20px;
     padding: 50px;
+    margin-top: 20px;
 }
 
-p, nav .nav-item {
-    color: #404E5C;
+p, b {
+    color: #678a74;
+}
+
+#nav-link {
+    color: #678a74;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    color: #729EA1;
+    color: #f39a66;
+    text-shadow: 2px 2px #678a74;
 }
 
 a {
-    color: #d24862;
+    color: #ffbaba;
 }
 
 #logo {
     height: auto;
-    max-width: 150px;
-    border-radius: 100%;
+    max-width: 180px;
+}
+
+.card-img {
+    height: auto;
+    min-width: 50px;
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+#text-center {
+    text-align: center !important;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+}
+
+td p {
+    margin: 5px;
+}
+
+#news {
+    padding: 50px;
 }
