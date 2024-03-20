@@ -44,7 +44,7 @@ p, b {
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     color: #f39a66;
-    text-shadow: 2px 2px #678a74;
+    text-shadow: 3px 3px #678a74;
 }
 
 a {
