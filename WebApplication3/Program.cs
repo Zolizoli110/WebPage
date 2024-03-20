@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using WebApplication3.Services;
 using WebApplication4.DataBase;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<Context>(options =>
     options.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=postgres"));
+builder.Services.AddScoped<NewsService>();
 
 var app = builder.Build();
 

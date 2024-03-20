@@ -31,7 +31,16 @@
 
     <ItemGroup>
       <Folder Include="Google\" />
-      <Folder Include="Services\" />
+      <Folder Include="Views\Shared\Components\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Shared\News\Default.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\News\PostNews.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Shared\Components\News\Default.cshtml" />
     </ItemGroup>
 
 </Project>
